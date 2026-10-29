@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# Streamlit local secrets
+.streamlit/secrets.toml
+
+# Runtime-generated artifacts
+models/*.pkl
+dataset/uci_energy.zip
+reports/*.pdf
+
+# Node / Vite
+node_modules/
+client/node_modules/
+dist/
+.manus-logs/
+
+# Manus scaffolding and environment config (contains credentials)
+.project-config.json
+template.json
+.manus/
+
+# OS / editor
+.DS_Store
+Thumbs.db
